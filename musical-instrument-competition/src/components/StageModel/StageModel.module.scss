@@ -1,0 +1,18 @@
+.container {
+  position: relative;
+  top: 150px;
+  width: 1100px;
+  display: flex;
+}
+
+.stageImage {
+  width: 1000px;
+  bottom: 0;
+}
+
+.barriersImage {
+  position: absolute;
+  width: 900px;
+  bottom: 50px;
+  left: 80px;
+}

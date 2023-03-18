@@ -1,0 +1,8 @@
+.container {
+    position: absolute;
+    display: flex;
+    gap: 10px;
+    left: 140px;
+    bottom: 15px;
+    transform: rotate3d(1, 10, 2, 20deg);
+}

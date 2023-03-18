@@ -1,0 +1,9 @@
+.container {
+    position: absolute;
+    right: 105px;
+    display: flex;
+    flex-direction: row;
+    bottom: 360px;
+    gap: 10px;
+    transform: rotate(-90deg);
+}

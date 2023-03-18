@@ -1,0 +1,16 @@
+.App {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+
+.wrapper {
+  display: flex;
+  position: relative;
+}
+
+.tvImg {
+  position: absolute;
+  height: 900px;
+  z-index: 2;
+}

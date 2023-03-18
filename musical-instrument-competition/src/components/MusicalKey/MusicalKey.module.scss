@@ -1,0 +1,41 @@
+.container {
+  position: relative;
+  width: 80px;
+  height: 80px;
+}
+
+.key {
+  all: unset;
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  width: 80px;
+  height: 80px;
+  cursor: pointer;
+  transition: transform 0.3s ease-out;
+}
+
+.image {
+  width: 80px;
+  z-index: 1;
+}
+
+.keyLabel {
+  position: absolute;
+  top: 25px;
+  font-size: 2rem;
+  font-weight: bolder;
+  z-index: 2;
+  cursor: pointer;
+}
+
+.keyActive {
+  all: unset;
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  width: 80px;
+  height: 80px;
+  cursor: pointer;
+  transform: translateY(-15px);
+}

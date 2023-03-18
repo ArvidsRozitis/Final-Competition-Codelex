@@ -1,0 +1,15 @@
+.leftSide {
+  position: absolute;
+  transform: rotate(-90deg) scaleX(-1);
+  top: 28px;
+  left: 0;
+  height: 200px;
+}
+
+.rightSide {
+  position: absolute;
+  transform: rotate(90deg);
+  top: 28px;
+  right: 0;
+  height: 200px;
+}

@@ -1,0 +1,15 @@
+.speakersImage {
+    position: absolute;
+    width: 800px;
+    left: 95px;
+    bottom: 87px;
+    transition: transform 0.5s;
+}
+
+.speakersImageActive {
+    position: absolute;
+    width: 800px;
+    left: 95px;
+    bottom: 87px;
+    transform: translateY(-6px);
+}

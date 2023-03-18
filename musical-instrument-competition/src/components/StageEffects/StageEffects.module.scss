@@ -1,0 +1,26 @@
+.darkenStage {
+  position: absolute;
+  left: 50px;
+  top: -100px;
+  width: 100%;
+  height: 800px;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 1;
+}
+
+.lightenStage {
+  position: absolute;
+  left: 50px;
+  top: -100px;
+  width: 100%;
+  height: 800px;
+  background: radial-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.5)80%);
+}
+
+.lightsImage {
+  position: absolute;
+  left: 80px;
+  top: -60px;
+  height: 700px;
+  z-index: 3;
+}
