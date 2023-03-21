@@ -23,7 +23,6 @@ const StageModel = () => {
       <DrumKeyBoard />
       <TrackKeyBoard />
       <StageEffects />
-      
     </div>
   );
 };
